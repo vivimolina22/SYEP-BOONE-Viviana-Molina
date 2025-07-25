@@ -15,17 +15,6 @@ head{
     font-size: medium;
 }
 
-div {
-   max-width: 400px;
-  margin: 20px auto;
-  padding: 20px;
-  border: 2px solid #d5d5d5;
-  border-radius: 10px;
-  background-color: cadetblue
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  font-family: Arial, sans-serif;
-}
-
 .hero img{
     border: radius 50%;
 }
@@ -33,3 +22,20 @@ div {
 .accent{
     color:azure
 }
+
+@media (max-width:768px){
+    body{background-color:white;}
+
+    .grid{
+        display: flex;
+        justify-content: center;
+        /*justify-content:space-around */
+        gap: 15px;
+        flex-wrap:wrap;
+    }
+    .grid div{
+        background-color:wheat;
+        border-radius:100px;
+        padding: 10px;
+        min-width:80px;
+    }
