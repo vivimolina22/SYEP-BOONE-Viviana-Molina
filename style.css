@@ -16,12 +16,27 @@ head{
 }
 
 .hero img{
-    border: radius 50%;
+    border: radius 75%;
 }
 
 .accent{
     color:azure
 }
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #333;
+  color: white;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+}
+  
 
 @media (max-width:768px){
     body{background-color:white;}
@@ -37,5 +52,4 @@ head{
         background-color:wheat;
         border-radius:100px;
         padding: 10px;
-        min-width:80px;
-    }
+        min: width 80px;
