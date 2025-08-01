@@ -40,7 +40,15 @@ footer a {
 
 @media (max-width:768px){
     body{background-color:white;}
-
+#about{
+    color:rgb(90, 165, 167)
+}
+#skills{
+    color:rgb(130, 178, 212)
+}
+#Experience{
+    color:rgb(4, 160, 160)
+}
     .grid{
         display: flex;
         justify-content: center;
@@ -52,4 +60,4 @@ footer a {
         background-color:wheat;
         border-radius:100px;
         padding: 10px;
-        min: width 80px;
+        min-width: 80px;
